@@ -114,8 +114,6 @@ fn main() {
     // Start traversing the directory
     file_stats.traverse_directory(&dir_path);
 
-    // Convert occurrences to a vector and sort it alphabetically based on the keys
-
     // Print the counts in array format
     println!("Occurrences: {:?}", file_stats.occurrences);
 
